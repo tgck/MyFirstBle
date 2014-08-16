@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23BF6C0A1994B3F600EEF5E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BF6C091994B3F600EEF5E6 /* Cocoa.framework */; };
+		23BF6C141994B3F600EEF5E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23BF6C121994B3F600EEF5E6 /* InfoPlist.strings */; };
+		23BF6C161994B3F600EEF5E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF6C151994B3F600EEF5E6 /* main.m */; };
+		23BF6C1A1994B3F600EEF5E6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 23BF6C181994B3F600EEF5E6 /* Credits.rtf */; };
+		23BF6C1D1994B3F600EEF5E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF6C1C1994B3F600EEF5E6 /* AppDelegate.m */; };
+		23BF6C201994B3F600EEF5E6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23BF6C1E1994B3F600EEF5E6 /* MainMenu.xib */; };
+		23BF6C221994B3F600EEF5E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BF6C211994B3F600EEF5E6 /* Images.xcassets */; };
+		23BF6C291994B3F600EEF5E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BF6C281994B3F600EEF5E6 /* XCTest.framework */; };
+		23BF6C2A1994B3F600EEF5E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BF6C091994B3F600EEF5E6 /* Cocoa.framework */; };
+		23BF6C321994B3F600EEF5E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23BF6C301994B3F600EEF5E6 /* InfoPlist.strings */; };
+		23BF6C341994B3F600EEF5E6 /* BLcentral_OSC2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF6C331994B3F600EEF5E6 /* BLcentral_OSC2Tests.m */; };
+		23BF6C3E1994B41100EEF5E6 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BF6C3D1994B41100EEF5E6 /* IOBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23BF6C2B1994B3F600EEF5E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23BF6BFE1994B3F600EEF5E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23BF6C051994B3F600EEF5E6;
+			remoteInfo = "BLcentral-OSC2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23BF6C061994B3F600EEF5E6 /* BLcentral-OSC2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLcentral-OSC2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BF6C091994B3F600EEF5E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		23BF6C0C1994B3F600EEF5E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		23BF6C0D1994B3F600EEF5E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		23BF6C0E1994B3F600EEF5E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23BF6C111994B3F600EEF5E6 /* BLcentral-OSC2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLcentral-OSC2-Info.plist"; sourceTree = "<group>"; };
+		23BF6C131994B3F600EEF5E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23BF6C151994B3F600EEF5E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23BF6C171994B3F600EEF5E6 /* BLcentral-OSC2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLcentral-OSC2-Prefix.pch"; sourceTree = "<group>"; };
+		23BF6C191994B3F600EEF5E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		23BF6C1B1994B3F600EEF5E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23BF6C1C1994B3F600EEF5E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23BF6C1F1994B3F600EEF5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		23BF6C211994B3F600EEF5E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		23BF6C271994B3F600EEF5E6 /* BLcentral-OSC2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLcentral-OSC2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BF6C281994B3F600EEF5E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		23BF6C2F1994B3F600EEF5E6 /* BLcentral-OSC2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLcentral-OSC2Tests-Info.plist"; sourceTree = "<group>"; };
+		23BF6C311994B3F600EEF5E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23BF6C331994B3F600EEF5E6 /* BLcentral_OSC2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLcentral_OSC2Tests.m; sourceTree = "<group>"; };
+		23BF6C3D1994B41100EEF5E6 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = ../../../../../../System/Library/Frameworks/IOBluetooth.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23BF6C031994B3F600EEF5E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BF6C0A1994B3F600EEF5E6 /* Cocoa.framework in Frameworks */,
+				23BF6C3E1994B41100EEF5E6 /* IOBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BF6C241994B3F600EEF5E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BF6C2A1994B3F600EEF5E6 /* Cocoa.framework in Frameworks */,
+				23BF6C291994B3F600EEF5E6 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23BF6BFD1994B3F600EEF5E6 = {
+			isa = PBXGroup;
+			children = (
+				23BF6C0F1994B3F600EEF5E6 /* BLcentral-OSC2 */,
+				23BF6C2D1994B3F600EEF5E6 /* BLcentral-OSC2Tests */,
+				23BF6C081994B3F600EEF5E6 /* Frameworks */,
+				23BF6C071994B3F600EEF5E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23BF6C071994B3F600EEF5E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23BF6C061994B3F600EEF5E6 /* BLcentral-OSC2.app */,
+				23BF6C271994B3F600EEF5E6 /* BLcentral-OSC2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23BF6C081994B3F600EEF5E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23BF6C3D1994B41100EEF5E6 /* IOBluetooth.framework */,
+				23BF6C091994B3F600EEF5E6 /* Cocoa.framework */,
+				23BF6C281994B3F600EEF5E6 /* XCTest.framework */,
+				23BF6C0B1994B3F600EEF5E6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23BF6C0B1994B3F600EEF5E6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23BF6C0C1994B3F600EEF5E6 /* AppKit.framework */,
+				23BF6C0D1994B3F600EEF5E6 /* CoreData.framework */,
+				23BF6C0E1994B3F600EEF5E6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		23BF6C0F1994B3F600EEF5E6 /* BLcentral-OSC2 */ = {
+			isa = PBXGroup;
+			children = (
+				23BF6C1B1994B3F600EEF5E6 /* AppDelegate.h */,
+				23BF6C1C1994B3F600EEF5E6 /* AppDelegate.m */,
+				23BF6C1E1994B3F600EEF5E6 /* MainMenu.xib */,
+				23BF6C211994B3F600EEF5E6 /* Images.xcassets */,
+				23BF6C101994B3F600EEF5E6 /* Supporting Files */,
+			);
+			path = "BLcentral-OSC2";
+			sourceTree = "<group>";
+		};
+		23BF6C101994B3F600EEF5E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23BF6C111994B3F600EEF5E6 /* BLcentral-OSC2-Info.plist */,
+				23BF6C121994B3F600EEF5E6 /* InfoPlist.strings */,
+				23BF6C151994B3F600EEF5E6 /* main.m */,
+				23BF6C171994B3F600EEF5E6 /* BLcentral-OSC2-Prefix.pch */,
+				23BF6C181994B3F600EEF5E6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23BF6C2D1994B3F600EEF5E6 /* BLcentral-OSC2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				23BF6C331994B3F600EEF5E6 /* BLcentral_OSC2Tests.m */,
+				23BF6C2E1994B3F600EEF5E6 /* Supporting Files */,
+			);
+			path = "BLcentral-OSC2Tests";
+			sourceTree = "<group>";
+		};
+		23BF6C2E1994B3F600EEF5E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23BF6C2F1994B3F600EEF5E6 /* BLcentral-OSC2Tests-Info.plist */,
+				23BF6C301994B3F600EEF5E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23BF6C051994B3F600EEF5E6 /* BLcentral-OSC2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BF6C371994B3F600EEF5E6 /* Build configuration list for PBXNativeTarget "BLcentral-OSC2" */;
+			buildPhases = (
+				23BF6C021994B3F600EEF5E6 /* Sources */,
+				23BF6C031994B3F600EEF5E6 /* Frameworks */,
+				23BF6C041994B3F600EEF5E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLcentral-OSC2";
+			productName = "BLcentral-OSC2";
+			productReference = 23BF6C061994B3F600EEF5E6 /* BLcentral-OSC2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23BF6C261994B3F600EEF5E6 /* BLcentral-OSC2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BF6C3A1994B3F600EEF5E6 /* Build configuration list for PBXNativeTarget "BLcentral-OSC2Tests" */;
+			buildPhases = (
+				23BF6C231994B3F600EEF5E6 /* Sources */,
+				23BF6C241994B3F600EEF5E6 /* Frameworks */,
+				23BF6C251994B3F600EEF5E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23BF6C2C1994B3F600EEF5E6 /* PBXTargetDependency */,
+			);
+			name = "BLcentral-OSC2Tests";
+			productName = "BLcentral-OSC2Tests";
+			productReference = 23BF6C271994B3F600EEF5E6 /* BLcentral-OSC2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23BF6BFE1994B3F600EEF5E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = tani;
+				TargetAttributes = {
+					23BF6C261994B3F600EEF5E6 = {
+						TestTargetID = 23BF6C051994B3F600EEF5E6;
+					};
+				};
+			};
+			buildConfigurationList = 23BF6C011994B3F600EEF5E6 /* Build configuration list for PBXProject "BLcentral-OSC2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23BF6BFD1994B3F600EEF5E6;
+			productRefGroup = 23BF6C071994B3F600EEF5E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23BF6C051994B3F600EEF5E6 /* BLcentral-OSC2 */,
+				23BF6C261994B3F600EEF5E6 /* BLcentral-OSC2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23BF6C041994B3F600EEF5E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BF6C141994B3F600EEF5E6 /* InfoPlist.strings in Resources */,
+				23BF6C221994B3F600EEF5E6 /* Images.xcassets in Resources */,
+				23BF6C1A1994B3F600EEF5E6 /* Credits.rtf in Resources */,
+				23BF6C201994B3F600EEF5E6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BF6C251994B3F600EEF5E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BF6C321994B3F600EEF5E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23BF6C021994B3F600EEF5E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BF6C1D1994B3F600EEF5E6 /* AppDelegate.m in Sources */,
+				23BF6C161994B3F600EEF5E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BF6C231994B3F600EEF5E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BF6C341994B3F600EEF5E6 /* BLcentral_OSC2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23BF6C2C1994B3F600EEF5E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23BF6C051994B3F600EEF5E6 /* BLcentral-OSC2 */;
+			targetProxy = 23BF6C2B1994B3F600EEF5E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23BF6C121994B3F600EEF5E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23BF6C131994B3F600EEF5E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		23BF6C181994B3F600EEF5E6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23BF6C191994B3F600EEF5E6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		23BF6C1E1994B3F600EEF5E6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23BF6C1F1994B3F600EEF5E6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		23BF6C301994B3F600EEF5E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23BF6C311994B3F600EEF5E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23BF6C351994B3F600EEF5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		23BF6C361994B3F600EEF5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		23BF6C381994B3F600EEF5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLcentral-OSC2/BLcentral-OSC2-Prefix.pch";
+				INFOPLIST_FILE = "BLcentral-OSC2/BLcentral-OSC2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23BF6C391994B3F600EEF5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLcentral-OSC2/BLcentral-OSC2-Prefix.pch";
+				INFOPLIST_FILE = "BLcentral-OSC2/BLcentral-OSC2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		23BF6C3B1994B3F600EEF5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLcentral-OSC2.app/Contents/MacOS/BLcentral-OSC2";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLcentral-OSC2/BLcentral-OSC2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BLcentral-OSC2Tests/BLcentral-OSC2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		23BF6C3C1994B3F600EEF5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLcentral-OSC2.app/Contents/MacOS/BLcentral-OSC2";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLcentral-OSC2/BLcentral-OSC2-Prefix.pch";
+				INFOPLIST_FILE = "BLcentral-OSC2Tests/BLcentral-OSC2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23BF6C011994B3F600EEF5E6 /* Build configuration list for PBXProject "BLcentral-OSC2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BF6C351994B3F600EEF5E6 /* Debug */,
+				23BF6C361994B3F600EEF5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23BF6C371994B3F600EEF5E6 /* Build configuration list for PBXNativeTarget "BLcentral-OSC2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BF6C381994B3F600EEF5E6 /* Debug */,
+				23BF6C391994B3F600EEF5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23BF6C3A1994B3F600EEF5E6 /* Build configuration list for PBXNativeTarget "BLcentral-OSC2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BF6C3B1994B3F600EEF5E6 /* Debug */,
+				23BF6C3C1994B3F600EEF5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23BF6BFE1994B3F600EEF5E6 /* Project object */;
+}
