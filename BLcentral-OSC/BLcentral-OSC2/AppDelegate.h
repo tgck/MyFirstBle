@@ -8,6 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 #import <IOBluetooth/IOBluetooth.h>
+#include "lo/lo.h"
+
+#define TM_INTERVAL 300 //
+
+#define SEND_TO_IP "192.168.0.2"
+#define SEND_TO_PORT "3001"
+
 
 //@interface AppDelegate : NSObject <NSApplicationDelegate>
 
@@ -16,13 +23,19 @@
 {
     CBCentralManager *manager;
     CBPeripheral *testPeripheral; // Peripheral
+    
+    lo_address* t;
+    NSString* sendToPort;
+    
+    NSMutableArray *thermometers;
     BOOL autoConnect;
 }
 
 - (void) startScan;
 - (void) stopScan;
-//- (BOOL) isLECapableHardware;
+- (BOOL) isLECapableHardware;
 
 @property (assign) IBOutlet NSWindow *window;
+@property (retain) NSMutableArray *thermometers;
 
 @end

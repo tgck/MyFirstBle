@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23B927331994D4780047C1A0 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B927321994D4780047C1A0 /* liblo.7.dylib */; };
 		23BF6C0A1994B3F600EEF5E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BF6C091994B3F600EEF5E6 /* Cocoa.framework */; };
 		23BF6C141994B3F600EEF5E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23BF6C121994B3F600EEF5E6 /* InfoPlist.strings */; };
 		23BF6C161994B3F600EEF5E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF6C151994B3F600EEF5E6 /* main.m */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23B927321994D4780047C1A0 /* liblo.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblo.7.dylib; path = ../../../../../../opt/local/lib/liblo.7.dylib; sourceTree = "<group>"; };
 		23BF6C061994B3F600EEF5E6 /* BLcentral-OSC2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLcentral-OSC2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BF6C091994B3F600EEF5E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		23BF6C0C1994B3F600EEF5E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -61,6 +63,7 @@
 			files = (
 				23BF6C0A1994B3F600EEF5E6 /* Cocoa.framework in Frameworks */,
 				23BF6C3E1994B41100EEF5E6 /* IOBluetooth.framework in Frameworks */,
+				23B927331994D4780047C1A0 /* liblo.7.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		23BF6BFD1994B3F600EEF5E6 = {
 			isa = PBXGroup;
 			children = (
+				23B927321994D4780047C1A0 /* liblo.7.dylib */,
 				23BF6C0F1994B3F600EEF5E6 /* BLcentral-OSC2 */,
 				23BF6C2D1994B3F600EEF5E6 /* BLcentral-OSC2Tests */,
 				23BF6C081994B3F600EEF5E6 /* Frameworks */,
@@ -389,10 +393,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BLcentral-OSC2/BLcentral-OSC2-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"/opt/local/include\"",
+				);
 				INFOPLIST_FILE = "BLcentral-OSC2/BLcentral-OSC2-Info.plist";
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -402,10 +413,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BLcentral-OSC2/BLcentral-OSC2-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"/opt/local/include\"",
+				);
 				INFOPLIST_FILE = "BLcentral-OSC2/BLcentral-OSC2-Info.plist";
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +488,7 @@
 				23BF6C391994B3F600EEF5E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23BF6C3A1994B3F600EEF5E6 /* Build configuration list for PBXNativeTarget "BLcentral-OSC2Tests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +497,7 @@
 				23BF6C3C1994B3F600EEF5E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
